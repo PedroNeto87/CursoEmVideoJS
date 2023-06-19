@@ -1,0 +1,13 @@
+JAVASCRIPT
+
+Bibliografia
+JavaScript - O guia definitivo
+JavaScript - Guia do programador
+
+developer.mozilla.org -> Tecnologias -> JavaScript
+ecma-international.org -> Standards -> ECMA-262
+
+Downloads
+NodeJS
+VS Code
+
