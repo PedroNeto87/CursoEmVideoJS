@@ -11,3 +11,39 @@ Downloads
 NodeJS
 VS Code
 
+Modulo B: Comando básicos do JavaScript
+
+Aula 5 - Variáveis é tipos primitivos
+
+Indetificadores
+° Podem comercar com letra, $ ou _
+° Não podem começar com números
+° É possível usasr letras ou números
+° É possível usar acentos e símbolos
+° Não podem conter espaços
+° Não podem ser palavras reservadas
+
+Dicas
+° Maiúsculas e minúsculas fazem diferença
+° Tente escolher nomes coerentes para as variáveis
+° Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+Data types (Tipos primitivos)
+
+3 tipos mais comuns:
+- number = 5 8 -12 0.5 -15.9 3.14 8.0
+- string = "Google" 'JavaScript' `Maria`
+- boolean = true false
+
+° number
+   -Infinity
+   -NaN (Not a number)
+° string
+° boolean
+° null
+° undefined
+° object
+   -Array
+° function
+
+Comando 'typeof' informa o tipo da minha variável
