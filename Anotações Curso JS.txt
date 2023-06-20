@@ -47,3 +47,32 @@ Data types (Tipos primitivos)
 ° function
 
 Comando 'typeof' informa o tipo da minha variável
+
+Aula 6 - Tratamento de dados
+
+Convertendo string para number
+Number.parseInt(n)
+Number.parseFloat(n)
+Number(n)
+
+Convertendo number para string
+String(n)
+n.toString()
+
+Formatando Strings
+var s = 'JavaScript'
+'Estou estudando s' => Não faz interpolação
+'Estou estudando' + s => Usa Concatenação
+`Estou estudando ${s}` => Usa Template Strings
+
+${} => place holder
+
+s.length => Quantos caracteres a string tem
+s.toUpperCase() => Tudo para 'MAIÚSCULAS'
+s.toLowerCase() => Tudo para 'minúsculas'
+
+Formatando números
+var n1 = 1545.5
+n1.toFixed(2) => Duas casas decimais
+n1.toFixed(2).replace('.' ',') => Trocar '.' por ','
+n1.toLocaleString('pt-BR', {sytle: 'currency', currency: 'BRL'})
