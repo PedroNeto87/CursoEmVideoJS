@@ -163,6 +163,7 @@ média >= 7.0 ? "Aprovado" : "Reprovado"
 Modulo C: Entendendo o DOM
 
 Aula 9 - Introdução ao DOM
+
 O que é DOM
 Document Object Model
 
@@ -176,7 +177,8 @@ p => strong...
 
 html é parent de head e body, que por sua vez são child de html.
 
-Selecionando
+Selecionando (Técnicas)
+
 por Marca -> getElementsByTagName()
 por ID -> getElementsById()
 por Nome -> getElementsByName()
@@ -185,3 +187,19 @@ por Seletor -> queySelector(), querySelectorAll()
 
 Toda 'div' é representada por '#'
 Toda 'classe' é representada por '.'
+
+Aula 10 - Eventos DOM
+
+Eventos DOM
+° Alguns evento de mouse:
+mouseenter;
+mousemove;
+mousedown;
+mouseup;
+click;
+mouseout;
+
+° Funções
+function nome(param){
+   codigo
+}
