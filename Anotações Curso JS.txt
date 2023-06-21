@@ -124,6 +124,38 @@ Incremento
 x += 1 => x++
 x -= 1 => x--
 
+
+Aula 8 - Operadores (parte 2)
+
 Relacionais
+>  => Maior
+<  => Menor
+>= => Maior igual
+<= => Menor igual
+== => Igual
+!= => Diferente (não igual)
+
+Operador de identidade
+=== => Idêntico
+5 === '5' => false
+5 === 5 => true
+
 Lógicos
+! => Negação (Não)
+&& => Conjunção (E)
+|| => Disjunção (OU)
+
+Ordem de Precedência
+Operdaores aritméticos
+Operadores relacionais
+Operador lógico ! (não)
+Operador lógico && (E)
+Operador lógico || (OU)
+
 Ternário
+?  
+:  
+
+3 bolcos
+    teste    ?    true    :   false
+média >= 7.0 ? "Aprovado" : "Reprovado"
