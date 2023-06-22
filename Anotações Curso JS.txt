@@ -241,3 +241,33 @@ if(condição){
    false
 }
 
+Aula 12 - Condições (parte 2)
+
+Condições aninhadas
+IF 'dentro' de IF
+
+Condição múltipla
+
+           |
+           V
+          <O>  -> Condição...
+_______________________
+|___| |___| |___| |___|
+  |     |     |     |
+  V-----V-----V-----V
+           |
+           V
+           O
+           |
+           V
+
+switch(expressão){
+   case valor1:
+	break
+   case valor2:
+	break
+   case valor3:
+	break
+   default:
+	break
+}
