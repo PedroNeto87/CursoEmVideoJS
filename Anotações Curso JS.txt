@@ -203,3 +203,41 @@ mouseout;
 function nome(param){
    codigo
 }
+
+Módulo D: Condições em JavaScript
+
+Aula 11 - Condições (parte 1)
+
+Sequêcias
+| var n = 3
+| n += 2
+V window.alert(n)
+
+Condições
+    |
+    v
+  |___|
+    |
+    v
+| -< >- |  <- Condição (if/else)
+|       |
+V       V
+--->O<---
+    |
+    V
+
+
+Tipos de condição:
+
+° Condição Simples
+if(condição){
+   true
+}
+
+° Condição Composta
+if(condição){
+   true
+} else{
+   false
+}
+
