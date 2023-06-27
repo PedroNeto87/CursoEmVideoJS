@@ -273,7 +273,7 @@ switch(expressão){
 }
 
 
-Modulo E: Repetoções em JavaScript
+Modulo E: Repetições em JavaScript
 
 Aula 13 - Repetições (parte 1)
 
@@ -304,3 +304,15 @@ do{
     console.log(`C = ${c}`)
     c++
 } while( c <= 6)
+
+Aula 14 - Repetições (parte 2)
+
+° Estrutura de repetição com variavél de controle
+
+for(comerFatia; temFatia; temFatia++){
+   
+}
+
+for(let c=1; c<=6; c++){
+    console.log(`C = ${c}`)
+}
