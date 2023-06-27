@@ -271,3 +271,36 @@ switch(expressão){
    default:
 	break
 }
+
+
+Modulo E: Repetoções em JavaScript
+
+Aula 13 - Repetições (parte 1)
+
+° Estrutura de repetição com teste no início
+
+function comerFatia(){
+   while(temFatia()){
+      comerFatia()
+      temFatia++
+   }
+}
+
+let c = 1
+while(c <= 6){
+    console.log(`C = ${c}`)
+    c++
+}
+
+° Estrutura de repetição com teste no final
+
+do{
+   comerFatia()
+   temFatia++
+} while(temFatia())
+
+let c = 1
+do{
+    console.log(`C = ${c}`)
+    c++
+} while( c <= 6)
