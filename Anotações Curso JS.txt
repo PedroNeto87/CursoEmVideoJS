@@ -316,3 +316,25 @@ for(comerFatia; temFatia; temFatia++){
 for(let c=1; c<=6; c++){
     console.log(`C = ${c}`)
 }
+
+Modulo F: Avançando os estudos em JavaScript
+
+Aula 15 - Variáveis Composta
+
+Variáveis simples: Só conseguem armazenar um valor por vez.
+
+Variáveis compostas: Devem ser capazes de armazenar vários valores em uma mesma estrutura.
+
+Um array(vetor) ou variável composta é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.
+
+let num = [5, 8, 4]
+
+   num ___________ 
+      | 5 | 8 | 4 |
+        |   |   |
+        v   v   v
+        0   1   2
+num = Array(Vetor)/Variável composta
+| | = Elemento
+|5| = Conteúdo/Valor
+ 0  = Índice/Chave/Key
