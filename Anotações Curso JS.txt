@@ -338,3 +338,28 @@ num = Array(Vetor)/Variável composta
 | | = Elemento
 |5| = Conteúdo/Valor
  0  = Índice/Chave/Key
+
+Aula 16 - Funções
+
+As funções podem ter os seguintes fatores: Chamada, parâmetros, ação e retorno, nem toda função usa parâmetros ou tem retornos!
+
+° São ações executadas assim que são chamadas ou em decorrência de algum evento.
+° Uma função pode receber parâmetros e retornar um resultado.
+
+function ação(param) => Parâmetro{
+   ação => Ação
+   retun res => Retorno
+}
+
+ação(5) => Chamada
+
+function parimp(n){
+   if(n%2==0){
+      return 'par'
+} else{
+      return 'ímpar'
+   }
+}
+
+let res = parimp(11)
+console.log(res)
