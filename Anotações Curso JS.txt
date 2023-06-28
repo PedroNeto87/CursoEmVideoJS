@@ -363,3 +363,42 @@ function parimp(n){
 
 let res = parimp(11)
 console.log(res)
+
+RESUMO
+° Fundamentos
+° Variáveis e dados
+° Operadores
+° Condições
+° Repetições
+° Arrays
+° Functions
+° DOM
+
+Próximos passos
+- HTML5
+- Functions
+- Objetos
+- Modularização
+- RegEx (Expressões regulares)
+- JSON
+- AJAX
+- NodeJS
+
+Objeto em JavaScript
+
+let amigo = {nome:'Jose', sexo:'M', peso:85.4, engordar(p){}}
+
+object
+ amigo ______________________________ 
+      | José | M | 85.4 | [function] |
+         |     |     |         |
+         v     v     v         v
+       nome  sexo  peso    engordar()
+
+let amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p=0){
+    console.log('Engordou')
+    this.peso += p
+}}
+
+amigo.engordar(2)
+console.log(`${amigo.nome} pesa ${amigo.peso}Kg`)
